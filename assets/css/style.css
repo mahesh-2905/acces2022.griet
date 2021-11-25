@@ -14,7 +14,9 @@ body {
   color: #2f3138;
   font-family: "Open Sans", sans-serif;
 }
-
+sup{
+  text-transform: lowercase;
+}
 a {
   color: #f82249;
   text-decoration: none;
@@ -137,7 +139,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #header.header-scrolled, #header.header-inner {
   background: rgba(6, 12, 34, 0.98);
-  height: 70px;
+  height: 85px;
 }
 #header #logo h1 {
   font-size: 36px;
@@ -156,14 +158,83 @@ h1, h2, h3, h4, h5, h6 {
 #header #logo img {
   padding: 0;
   margin: 0;
-  max-height: 80px;
+  /* max-height: 80px; */
 }
-@media (max-width: 992px) {
-  #header #logo img {
-    max-height: 30px;
+@media (max-width: 1900px) {
+  #header #logo img#acces {
+    /* max-height: 30px; */
+    height: 90px;
+    width: 150px;
+  }
+  #header #logo img#griet {
+    /* max-height: 30px; */
+    height: 105px;
+    width: 100px;
   }
 }
-
+@media (max-width: 1250px) {
+  #header #logo img#acces {
+    /* max-height: 30px; */
+    height: 70px;
+    width: 100px;
+  }
+  #header #logo img#griet {
+    /* max-height: 30px; */
+    height: 80px;
+    width: 80px;
+  }
+}
+@media (max-width: 1500px) {
+  #header #logo img#acces {
+    /* max-height: 30px; */
+    height: 60px;
+    width: 105px;
+  }
+  #header #logo img#griet {
+    /* max-height: 30px; */
+    height: 90px;
+    width: 80px;
+  }
+  #header #logo img#cityuniversity {
+    /* max-height: 30px; */
+    height: 57px;
+    width: 100px;
+  }
+}
+@media (max-width: 1000px) {
+  #header #logo img#acces {
+    /* max-height: 30px; */
+    height: 70px;
+    width: 95px;
+  }
+  #header #logo img#griet {
+    /* max-height: 30px; */
+    height: 90px;
+    width: 80px;
+  }
+  #header #logo img#cityuniversity {
+    /* max-height: 30px; */
+    height: 47px;
+    width: 100px;
+  }
+}
+@media (max-width: 390px) {
+  #header #logo img#acces {
+    /* max-height: 30px; */
+    height: 60px;
+    width: 85px;
+  }
+  #header #logo img#griet {
+    /* max-height: 30px; */
+    height: 70px;
+    width: 60px;
+  }
+  #header #logo img#cityuniversity {
+    /* max-height: 30px; */
+    height: 37px;
+    width: 70px;
+  }
+}
 /*--------------------------------------------------------------
 # Buy Tickets
 --------------------------------------------------------------*/
