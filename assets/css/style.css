@@ -481,7 +481,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url(../img/slide1.png) top center;
+  background: url(../img/slide1.jpg) top center;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -497,7 +497,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero:before {
   content: "";
-  background: rgba(6, 12, 34, 0.8);
+  background: rgba(6, 12, 34, 0.3);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -1039,7 +1039,11 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 6px;
   }
 }
+.gallery_card{
 
+  border: 1px solid grey ;
+  border-radius: 4px;
+}
 /*--------------------------------------------------------------
 # Sponsors Section
 --------------------------------------------------------------*/
